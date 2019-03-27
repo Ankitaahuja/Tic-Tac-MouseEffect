@@ -1,0 +1,55 @@
+body {
+
+    background: url(background.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+
+ /* CSS for heading  */
+ .hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  h1 {
+      margin-top:20%;
+      margin-bottom: -15%;
+    font-size: xx-large;
+    font-family:verdana;
+  }
+
+
+.container {
+    background-color: beige;
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 35%;
+}
+
+
+
+.item {
+    border-right: 5px solid rgb(20, 5, 39);
+    border-top: 5px solid rgb(20, 5, 39);
+}
+
+.item6,
+.item3,
+.item9 {
+    border-right: none
+}
+
+.item1,
+.item2,
+.item3 {
+    border-top: none
+}
